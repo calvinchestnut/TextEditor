@@ -6,5 +6,6 @@ Once I filed the radars for this behavior I made a wrapper around UITextField th
 
 ## TODO
 
-[] Apply inherited TextColor
-[] Improve Font inheritance
+[ ] Apply inherited TextColor
+
+[ ] Improve Font inheritance
