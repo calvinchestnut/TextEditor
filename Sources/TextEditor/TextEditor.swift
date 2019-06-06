@@ -2,7 +2,7 @@ import SwiftUI
 import UIKit
 
 @available(iOS 13.0, *)
-struct TextEditor: View {
+public struct TextEditor: View {
     @Binding var text: String
     
     var body: some View {
