@@ -3,7 +3,7 @@ import UIKit
 
 @available(iOS 13.0, *)
 public struct TextEditor: View {
-    @Binding var text: String
+    @Binding public var text: String
     
     public var body: some View {
         TextField_UI(text: $text)
