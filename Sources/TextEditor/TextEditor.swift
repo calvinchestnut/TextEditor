@@ -5,7 +5,7 @@ import UIKit
 public struct TextEditor: View {
     @Binding var text: String
     
-    var body: some View {
+    public var body: some View {
         TextField_UI(text: $text)
     }
 }
